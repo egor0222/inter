@@ -1,0 +1,7 @@
+___HELP___
+
+parameters:
+    comp [your param]
+
+help - writing this file
+version - write comp version

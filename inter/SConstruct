@@ -1,0 +1,8 @@
+#FILES = ['all.cpp', 'build.cpp', 'compiler.cpp', 'compilerMath.cpp', 'function.cpp', 'main.cpp']
+
+env = Environment(
+    SCONS_CXX_STANDARD = 'c++17',
+    CPPDEFINES = ['DEBUG']
+)
+
+env.Program('comp', Glob('src/*.cpp'))
